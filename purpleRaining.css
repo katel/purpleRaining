@@ -1,0 +1,76 @@
+/* CSS declarations go here */
+
+body {
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5A4A82), to(#382E51)) fixed;
+  background: -moz-linear-gradient(top, #5A4A82  0%, #382E51 100%) fixed;
+  color: #f3f3f3;
+}
+
+header {
+  padding: 1em ;
+  textshadow: 0 1px 1px #fff;
+}
+
+.subheading {
+  margin-top: -10px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  opacity: 0.6;
+}
+
+h1 {
+  letter-spacing: initial;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
+.logo {
+  margin: 0 34%;
+}
+
+.main {
+  text-align: center;
+}
+
+.lyric-display {
+  margin-top: 0;
+  font-size: 2.4em;
+  font-weight: lighter;
+}
+
+.highlight {
+  background: #f3f3f3;
+  color: #444;
+  opacity:0.8;
+  text-shadow: 0 1px 0px #ccc;
+  padding: 0.25em;
+}
+
+.footer {
+  background: #222;
+  color: #f3f3f3;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+}
+
+.btn, .btn-large, .btn:hover {
+  background: #9A76FE;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+.more-info {
+  background: #9A76FE;
+}
+
+#shelf {
+display:none;
+padding: 2em 0;
+}

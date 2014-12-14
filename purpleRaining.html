@@ -1,0 +1,56 @@
+<head>
+  <title>purpleRaining</title>
+</head>
+
+<body>
+  <header>
+    <h1>Purple Raining</h1>
+    <span class="subheading">*It's been 30 years since the release of Purple Rain and that's a mightly long time.</span>
+  </header>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col s12 m1">
+        <p></p>
+      </div>
+      <div class="col s12 m10">{{> home}}
+      </div>
+      <div class="col s12 m1">
+        <p></p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="row">
+      <div class="col s4 m4 l1">
+        <p> <a class="btn-floating more-info"><i class="mdi-action-announcement"></i></a>
+        </p>
+      </div>
+      <div class="col s8 m8 l9">
+        <div id="shelf">An experiment in purple, randomness and Meteor.js (not necessarily in that order).</div>
+      </div>
+      <div class="col s4 m4 l2">
+        <p><small>image by Mike Jewett from <a href="http://thenounproject.com/term/prince/36331/">the Noun Project</a></small></p>
+      </div>
+
+    </div>
+
+  </div>
+</body>
+
+<template name="home">
+  <section class="main light center">
+    <img src="/noun_36331_cc.svg" class="logo" />
+    {{#each lyrics}}
+    <p class="flow-text lyric-display">{{lyric}}</p>
+    {{/each}}
+
+    <button class="btn waves-effect waves-light" type="submit" name="action">Not 4U? Try again.
+      <i class="mdi-action-restore right"></i>
+
+
+    </button>
+  </section>
+</template>
